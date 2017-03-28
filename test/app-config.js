@@ -1,5 +1,6 @@
+'use strict';
+
 define([], function() {
-	'use strict';
 
 	/**
 	 * Create the application namespace

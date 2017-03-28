@@ -111,7 +111,7 @@
   // Previous uuid creation time
   var _lastMSecs = 0, _lastNSecs = 0;
 
-  // See https://github.com/broofa/node-uuid for API details
+  // See https://github.com/kelektiv/node-uuid for API details
   function v1(options, buf, offset) {
     var i = buf && offset || 0;
     var b = buf || [];
@@ -189,7 +189,7 @@
 
   // **`v4()` - Generate random UUID**
 
-  // See https://github.com/broofa/node-uuid for API details
+  // See https://github.com/kelektiv/node-uuid for API details
   function v4(options, buf, offset) {
     // Deprecated - 'format' argument, as supported in v1.2
     var i = buf && offset || 0;
