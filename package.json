@@ -1,11 +1,9 @@
 {
-	"name": "crypto-lib",
+	"name": "wo-crypto-lib",
 	"version": "0.2.7",
 	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/whiteout-io/crypto-lib.git"
-	},
+	"repository": "NNemec/wo-crypto-lib",
+	"license": "MIT",
 	"scripts": {
 		"pretest": "./res/copy-deps.sh",
 		"test": "grunt test"
@@ -14,18 +12,18 @@
 		"node": "*"
 	},
 	"dependencies": {
-		"requirejs": "~2.1.8",
-		"node-uuid": "~1.4.1",
-		"underscore": "~1.4.4",
-		"node-forge": "~0.6.12"
+		"requirejs": "~2.3.3",
+		"uuid": "~3.0.1",
+		"underscore": "~1.8.3",
+		"node-forge": "~0.7.1"
 	},
 	"devDependencies": {
-		"grunt": "~0.4.1",
-		"mocha": "~1.13.0",
-		"chai": "~1.7.2",
-		"grunt-contrib-jshint": "~0.6.4",
-		"grunt-contrib-connect": "0.5.0",
-		"grunt-mocha": "~0.4.1",
-		"grunt-mocha-test": "~0.10.0"
+		"grunt": "~1.0.1",
+		"mocha": "~3.2.0",
+		"chai": "~3.5.0",
+		"grunt-contrib-jshint": "~1.1.0",
+		"grunt-contrib-connect": "1.0.2",
+		"grunt-mocha": "~1.0.4",
+		"grunt-mocha-test": "~0.13.2"
 	}
 }
